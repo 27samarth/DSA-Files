@@ -68,7 +68,7 @@ void postorderTraversal(struct Node* root)
 int main()
 {
     int rangeMin, rangeMax, maxValue;
-    printf("enter  range min and max: ");
+    printf("Enter the range (minimum and maximum): ");
     scanf("%d %d", &rangeMin, &rangeMax);
     printf("Enter the maximum value to be stored: ");
     scanf("%d", &maxValue);
